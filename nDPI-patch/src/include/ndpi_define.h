@@ -283,7 +283,7 @@
 #define get_ul8(X,O) get_u_int8_t(X,O)
 
 
-#if defined(__LITTLE_ENDIAN__) || defined(_LITTLE_ENDIAN)
+#if defined(__LITTLE_ENDIAN__) || defined(__LITTLE_ENDIAN)
 #define get_l16(X,O)  get_u_int16_t(X,O)
 #define get_l32(X,O)  get_u_int32_t(X,O)
 #elif defined(__BIG_ENDIAN__) || defined(__BIG_ENDIAN)
