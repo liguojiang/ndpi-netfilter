@@ -187,7 +187,7 @@ struct ndpi_mpls_header
 
 PACK_ON
 struct ndpi_iphdr {
-#if defined(__LITTLE_ENDIAN__)
+#if defined(__LITTLE_ENDIAN)
   u_int8_t ihl:4, version:4;
 #elif defined(__BIG_ENDIAN__)
   u_int8_t version:4, ihl:4;
